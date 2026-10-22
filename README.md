@@ -11,6 +11,15 @@
 
 This project is aimed to provide a user panel to access FREE, SECURE, PRIVATE proxies and tools including **VLESS**, **Trojan** and **Warp** configs alongside a **private DoH** server for cross-platform clients. It ensures connectivity even when domains or Warp services are blocked by ISPs, offering **Workers** and **Pages** deployments using [BPB Wizard](https://github.com/ChiakoRh/BPB-Wizard) in a few seconds!
 
+> [!IMPORTANT]
+> This is a maintained fork. Upstream has been inactive since July 2026 and the panel stopped deploying
+> successfully with **Cloudflare error 1101**, because the deployment sent a `nodejs_compat` compatibility
+> flag that the runtime already enables by default since `2026-08-04` and therefore refuses to start the
+> Worker with. The fix is included here and in [PR #1483](https://github.com/bia-pain-bache/BPB-Worker-Panel/pull/1483)
+> upstream, together with the equivalent [Wizard fix](https://github.com/bia-pain-bache/BPB-Wizard/pull/94).
+> An already broken panel cannot repair itself, remove the `nodejs_compat` flag once in
+> **Cloudflare Dashboard → Workers & Pages → your Worker → Settings → Runtime → Compatibility flags**.
+
 🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
 
 ### USDT (BEP20)
