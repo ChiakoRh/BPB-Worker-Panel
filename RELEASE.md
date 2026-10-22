@@ -59,11 +59,12 @@ Also manual deployment and BPB Wizard client deployments do not work on this rel
 - Fixed Chain Proxy validation #1352
 - Fixed missing sing-box Upstream Proxy #1354
 - Fixed Workers deployment metadata, the redundant `nodejs_compat` compatibility flag prevented new deployments from starting, which Cloudflare reported as error 1101.
+- Fixed unhandled rejections, the panel handlers were not awaited, so any failure escaped the error handling and Cloudflare reported error 1101 instead of showing the error page.
 - Some other bug fixes.
 
 First time contributors: @javadSharifi @gbcwror @doublepleat
 
-![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/ChiakoRh/BPB-Worker-Panel/v5.1.2/worker.js)
+![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/ChiakoRh/BPB-Worker-Panel/v5.1.3/worker.js)
 
 > [!CAUTION]
 > Please update whatever client you use, specially these ones:
