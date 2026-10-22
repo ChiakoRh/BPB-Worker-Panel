@@ -1,7 +1,7 @@
 # 🎉 BPB Next Generation
 
 This version can only be deployed using [ONE-CLICK online BPB Wizard](https://wizard.bpb-panel.workers.dev) and you can UPDATE and DELETE your panel from panel itself!
-Please note that the wizard worker gets deployed only from [Wizard Github repository](https://github.com/bia-pain-bache/BPB-Wizard/tree/dev) directly for your safety.
+Please note that the wizard worker gets deployed only from [Wizard Github repository](https://github.com/ChiakoRh/BPB-Wizard/tree/main) directly for your safety.
 Wizard gives you a PRIVATE LINK after first installation and this link is a ONE-CLICK wizard.
 Also manual deployment and BPB Wizard client deployments do not work on this release.
 
@@ -58,11 +58,12 @@ Also manual deployment and BPB Wizard client deployments do not work on this rel
 - Fixed Trojan password validation.
 - Fixed Chain Proxy validation #1352
 - Fixed missing sing-box Upstream Proxy #1354
+- Fixed Workers deployment metadata, the redundant `nodejs_compat` compatibility flag prevented new deployments from starting, which Cloudflare reported as error 1101.
 - Some other bug fixes.
 
 First time contributors: @javadSharifi @gbcwror @doublepleat
 
-![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/bia-pain-bache/BPB-Worker-Panel/v5.1.1/worker.js)
+![GitHub Downloads (specific asset, specific tag)](https://img.shields.io/github/downloads/ChiakoRh/BPB-Worker-Panel/v5.1.2/worker.js)
 
 > [!CAUTION]
 > Please update whatever client you use, specially these ones:

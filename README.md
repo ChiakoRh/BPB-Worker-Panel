@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This project is aimed to provide a user panel to access FREE, SECURE, PRIVATE proxies and tools including **VLESS**, **Trojan** and **Warp** configs alongside a **private DoH** server for cross-platform clients. It ensures connectivity even when domains or Warp services are blocked by ISPs, offering **Workers** and **Pages** deployments using [BPB Wizard](https://github.com/bia-pain-bache/BPB-Wizard) in a few seconds!
+This project is aimed to provide a user panel to access FREE, SECURE, PRIVATE proxies and tools including **VLESS**, **Trojan** and **Warp** configs alongside a **private DoH** server for cross-platform clients. It ensures connectivity even when domains or Warp services are blocked by ISPs, offering **Workers** and **Pages** deployments using [BPB Wizard](https://github.com/ChiakoRh/BPB-Wizard) in a few seconds!
 
 🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
 
@@ -42,10 +42,10 @@ This project is aimed to provide a user panel to access FREE, SECURE, PRIVATE pr
 
 ## Getting started
 
-- [Installation methods](https://bia-pain-bache.github.io/BPB-Worker-Panel/wizard/)
-- [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
-- [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
-- [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
+- [Installation methods](https://chiakorh.github.io/BPB-Worker-Panel/wizard/)
+- [Configuration](https://chiakorh.github.io/BPB-Worker-Panel/configuration/)
+- [How to use](https://chiakorh.github.io/BPB-Worker-Panel/usage/)
+- [FAQ](https://chiakorh.github.io/BPB-Worker-Panel/faq/)
 
 ## Supported Clients
 

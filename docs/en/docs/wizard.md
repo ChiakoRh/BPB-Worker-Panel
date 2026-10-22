@@ -1,6 +1,6 @@
 # :material-new-box:{ .md .middle } BPB Wizard
 
-To simplify the setup process and prevent user mistakes during installation, the [BPB Wizard](https://github.com/bia-pain-bache/BPB-Wizard) project was launched which provides online and CLI installations. It supports both Workers and Pages methods and just takes a few seconds to install panel!
+To simplify the setup process and prevent user mistakes during installation, the [BPB Wizard](https://github.com/ChiakoRh/BPB-Wizard) project was launched which provides online and CLI installations. It supports both Workers and Pages methods and just takes a few seconds to install panel!
 
 <p align="center" class="img-wrapper">
   <img src="/BPB-Worker-Panel/images/wizard-web.jpg" width="400" alt="wizard-web" />
@@ -26,11 +26,11 @@ https://wizard.bpb-panel.workers.dev
 ### CLI edition
 
 ```bash title="Windows PowerShell"
-irm https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ChiakoRh/BPB-Wizard/main/install.ps1 | iex
 ```
 
 ```bash title="Android (Termux) - Linux - macOS"
-bash <(curl -fsSL https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/ChiakoRh/BPB-Wizard/main/install.sh)
 ```
 
 !!! warning "Termux usage attention"

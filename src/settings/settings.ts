@@ -21,8 +21,8 @@ Object.assign(globalThis, {
     _V2_: atob('djJyYXk='),
     _project_: atob('QlBC'),
     _project_SM_: atob('YnBi'),
-    _repo_: atob('aHR0cHM6Ly9naXRodWIuY29tL2JpYS1wYWluLWJhY2hlL0JQQi1Xb3JrZXItUGFuZWw='),
-    _wizard_repo_: atob('aHR0cHM6Ly9naXRodWIuY29tL2JpYS1wYWluLWJhY2hlL0JQQi1XaXphcmQ='),
+    _repo_: atob('aHR0cHM6Ly9naXRodWIuY29tL0NoaWFrb1JoL0JQQi1Xb3JrZXItUGFuZWw='),
+    _wizard_repo_: atob('aHR0cHM6Ly9naXRodWIuY29tL0NoaWFrb1JoL0JQQi1XaXphcmQ='),
     _website_: atob('aHR0cHM6Ly9iaWEtcGFpbi1iYWNoZS5naXRodWIuaW8vQlBCLVdvcmtlci1QYW5lbC8='),
     _public_proxy_ip_: atob('YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ=='),
 });

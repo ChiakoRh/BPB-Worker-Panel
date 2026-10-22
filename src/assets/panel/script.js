@@ -82,7 +82,7 @@ async function getUsage() {
 
 async function checkVersion(panelVersion) {
     try {
-        const res = await fetch('https://raw.githubusercontent.com/bia-pain-bache/BPB-Worker-Panel/refs/heads/main/package.json', {
+        const res = await fetch('https://raw.githubusercontent.com/ChiakoRh/BPB-Worker-Panel/refs/heads/main/package.json', {
             cache: 'no-store'
         });
 
@@ -871,7 +871,7 @@ function randPath() {
 async function updatePanel(btn) {
     const confirm = await notify('confirm', 'Update BPB Panel', [
         `BPB Panel verseion ${globalThis.latestVersion} is now available!`,
-        `Please read <a href='https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/latest' target='_blank' rel='noopener noreferrer'>Release notes</a> carefully before updating.`,
+        `Please read <a href='https://github.com/ChiakoRh/BPB-Worker-Panel/releases/latest' target='_blank' rel='noopener noreferrer'>Release notes</a> carefully before updating.`,
         'Are you sure?'
     ]);
 
@@ -1132,7 +1132,7 @@ function renderSubscriptions(subscriptions) {
     for (const [type, { label, categories }] of Object.entries(subscriptions)) {
         const help = elm('a', {
             className: 'help-icon',
-            href: `https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/${type}/`,
+            href: `https://chiakorh.github.io/BPB-Worker-Panel/usage/${type}/`,
             target: '_blank',
             title: 'Help'
         }, createIcon('info'));

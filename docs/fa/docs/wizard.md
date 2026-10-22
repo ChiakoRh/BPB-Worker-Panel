@@ -1,6 +1,6 @@
 # :material-new-box:{ .md .middle } راه‌اندازی خودکار با BPB Wizard
 
-برای ساده‌تر کردن فرآیند راه‌اندازی و جلوگیری از اشتباهات کاربرها، پروژه [BPB Wizard](https://github.com/bia-pain-bache/BPB-Wizard) در دو نسخه تحت وب و ترمینال برای سیستم‌عامل‌های مختلف راه‌اندازی شده. این ابزار از هر دو روش Workers و Pages پشتیبانی می‌کنه و فقط چند ثانیه زمان می‌بره تا پنل رو نصب کنه.
+برای ساده‌تر کردن فرآیند راه‌اندازی و جلوگیری از اشتباهات کاربرها، پروژه [BPB Wizard](https://github.com/ChiakoRh/BPB-Wizard) در دو نسخه تحت وب و ترمینال برای سیستم‌عامل‌های مختلف راه‌اندازی شده. این ابزار از هر دو روش Workers و Pages پشتیبانی می‌کنه و فقط چند ثانیه زمان می‌بره تا پنل رو نصب کنه.
 
 <p align="center" class="img-wrapper">
   <img src="/BPB-Worker-Panel/images/wizard-web.jpg" width="400" alt="wizard-web" />
@@ -26,11 +26,11 @@ https://wizard.bpb-panel.workers.dev
 ### نسخه ترمینال
 
 ```bash title="Windows PowerShell"
-irm https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/ChiakoRh/BPB-Wizard/main/install.ps1 | iex
 ```
 
 ```bash title="Android (Termux) - Linux - macOS"
-bash <(curl -fsSL https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/ChiakoRh/BPB-Wizard/main/install.sh)
 ```
 
 !!! warning "توصیه‌های استفاده از Termux"

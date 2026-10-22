@@ -9,7 +9,7 @@
 
 ## معرفی پروژه
 
-این پروژه یه پنل کاربری برای ساخت و مدیریت کانفیگ‌های **رایگان**، **امن** و **خصوصی** **VLESS**، **Trojan** و **Warp** هست که در کنارش یک سرور **DoH** با قابلیت شصی‌سازی ارائه می‌ده که حتی وقتی دامنه‌ها یا سرویس Warp توسط اپراتورها فیلتر شدن، اتصال رو تضمین می‌کنه. این پنل به دو روش **Wrokers** و **Pages** و از طریق [BPB Wizard](https://github.com/bia-pain-bache/BPB-Wizard) راه‌اندازی می‌شه.
+این پروژه یه پنل کاربری برای ساخت و مدیریت کانفیگ‌های **رایگان**، **امن** و **خصوصی** **VLESS**، **Trojan** و **Warp** هست که در کنارش یک سرور **DoH** با قابلیت شصی‌سازی ارائه می‌ده که حتی وقتی دامنه‌ها یا سرویس Warp توسط اپراتورها فیلتر شدن، اتصال رو تضمین می‌کنه. این پنل به دو روش **Wrokers** و **Pages** و از طریق [BPB Wizard](https://github.com/ChiakoRh/BPB-Wizard) راه‌اندازی می‌شه.
 
 🌟 اگه **پنل BPB** براتون مفید بوده، با حمایتتون بهم دلگرمی می‌دید 🌟
 
@@ -42,10 +42,10 @@
 
 ## شروع به کار
 
-- [روش‌های راه‌اندازی](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/wizard/)
-- [راهنمای تنظیمات](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/configuration/)
-- [نحوه‌ی استفاده](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/usage/)
-- [پرسش‌های متداول (FAQ)](https://bia-pain-bache.github.io/BPB-Worker-Panel/en/faq/)
+- [روش‌های راه‌اندازی](https://chiakorh.github.io/BPB-Worker-Panel/fa/wizard/)
+- [راهنمای تنظیمات](https://chiakorh.github.io/BPB-Worker-Panel/fa/configuration/)
+- [نحوه‌ی استفاده](https://chiakorh.github.io/BPB-Worker-Panel/fa/usage/)
+- [پرسش‌های متداول (FAQ)](https://chiakorh.github.io/BPB-Worker-Panel/en/faq/)
 
 ## برنامه‌های پشتیبانی شده
 

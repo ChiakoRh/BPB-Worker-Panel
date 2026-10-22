@@ -1,6 +1,6 @@
 site_name: BPB Panel
-site_url: https://bia-pain-bache.github.io
-repo_url: https://github.com/bia-pain-bache/BPB-Worker-Panel
+site_url: https://chiakorh.github.io
+repo_url: https://github.com/ChiakoRh/BPB-Worker-Panel
 copyright: Copyright &copy; BPB
 
 use_directory_urls: true
@@ -68,7 +68,7 @@ extra:
       link: /BPB-Worker-Panel/fa/
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/bia-pain-bache/BPB-Worker-Panel
+      link: https://github.com/ChiakoRh/BPB-Worker-Panel
       name: Source code
 
 plugins:
